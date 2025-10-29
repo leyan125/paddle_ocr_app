@@ -1,0 +1,34 @@
+# config.yaml
+
+# 定义 OCR 应用支持的语言配置
+supported_languages:
+  - name: "中文 (简体)"
+    code: "ch"
+    rec_model: "PP-OCRv5_server_rec"
+  - name: "英文"
+    code: "en"
+    rec_model: "en_PP-OCRv5_mobile_rec"
+  - name: "繁体中文"
+    code: "chinese_cht"
+    rec_model: "PP-OCRv5_server_rec"
+  - name: "日文"
+    code: "japan"
+    rec_model: "PP-OCRv5_server_rec"
+  - name: "韩文"
+    code: "korean"
+    rec_model: "korean_PP-OCRv5_mobile_rec"
+
+# 通用模型配置
+general_config:
+  det_model: "PP-OCRv5_server_det"
+
+# 执行器配置
+executor_config:
+  max_workers: 2
+
+# --- 新增日志配置 ---
+logging_config:
+  # 日志级别：DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: INFO
+  # 日志文件路径
+  file_path: logs/app.log
