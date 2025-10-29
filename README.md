@@ -27,10 +27,10 @@
 ### 1. 克隆项目
 
 ```bash
-git clone [https://github.com/leyan125/paddle_ocr_app.git]
+git clone https://github.com/leyan125/paddle_ocr_app.git
 cd paddle_ocr_app
 ```
-2. 创建与激活环境
+###2. 创建与激活环境
 强烈建议使用 Python 虚拟环境。
 # 创建环境
 ```
@@ -47,12 +47,12 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. 安装依赖
+###3. 安装依赖
 ```
 pip install -r requirements.txt
 ```
 
-5. 模型配置
+###4. 模型配置
 下载模型: 根据 config.yaml 中的配置，从 PaddleOCR 官方模型列表 下载对应的推理模型，并将其解压到 models/ 文件夹下的相应子目录中。
 
 ▶️ 如何运行
