@@ -28,7 +28,8 @@
 
 ```bash
 git clone [https://github.com/leyan125/paddle_ocr_app.git]
-cd paddle_ocr_app```
+cd paddle_ocr_app
+```
 2. 创建与激活环境
 强烈建议使用 Python 虚拟环境。
 # 创建环境
